@@ -1,4 +1,8 @@
+package com.csmithswim;
+
 import java.util.*;
+
+
 
 class Printer <T> {
 
@@ -9,6 +13,11 @@ class Printer <T> {
      **/
 
     // Write your code here
+    static <E> void printArray(E[] inputArray){
+        for(E element : inputArray){
+            System.out.println(element);
+        }
+    }
 
 }
 
